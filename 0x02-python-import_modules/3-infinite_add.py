@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-if __name__ == "__main__ ":
+if __name__ == "__main__":
     from sys import argv
 
-    add = 0
+    arg_tot = 0
     for i in range(len(argv) - 1):
-        add += int(argv[i + 1])
-    print("{}".format(add))
+        arg_tot += int(argv[i + 1])
+    print("{}".format(arg_tot))
