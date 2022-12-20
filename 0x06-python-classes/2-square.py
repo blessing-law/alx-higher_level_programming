@@ -5,15 +5,15 @@ create square class
 
 
 class Square:
-    """define sqaure"""
+    """Define sqaure"""
 
     def __init__(self, size=0):
-        """initialise square class.
+        """Initialise square class.
         Args:
-            size: size of the square
+            Size: size of the square.
         Raises:
-            TypeError: if size is not int
-            ValueError: if size is less than zero
+            TypeError: if size is not int.
+            ValueError: if size is less than zero.
         """
         if type(size) is int:
             if size >= 0:
