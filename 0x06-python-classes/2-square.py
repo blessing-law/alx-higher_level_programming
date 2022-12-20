@@ -4,7 +4,7 @@ create square class
 """
 
 
-class Sqaure:
+class Square:
     """define sqaure"""
 
     def __init__(self, size=0):
