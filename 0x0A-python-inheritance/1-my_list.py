@@ -5,7 +5,7 @@
 """
 
 
-class MyList(list):
+class MyList(self):
     """Class that inherits from list"""
     def print_sorted(self):
         """prints sorted list"""
