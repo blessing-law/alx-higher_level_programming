@@ -8,5 +8,5 @@ class BaseGeometry:
     """Class represents a base geometry"""
 
     def area(self):
-        """ """
-        raise Exception("area() is not impemented")
+        """methos not implemeted yet """
+        raise Exception("area() is not implemented")
