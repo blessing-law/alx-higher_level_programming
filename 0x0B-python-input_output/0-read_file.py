@@ -7,5 +7,4 @@ to standout"""
 def read_file(filename=""):
     """Function that prints to stdout"""
     with open(filename, encoding="utf-8") as a:
-        a_file = a.read()
-        print(a_file, end="")
+        print(a.read(), end="")
