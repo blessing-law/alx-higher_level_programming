@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-Module that defines a text file reading function"""
+"""`Module that defines a text file reading function"""
 
 
 def read_file(filename=""):
